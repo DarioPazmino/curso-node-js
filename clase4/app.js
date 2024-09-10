@@ -1,5 +1,4 @@
 import express, { json } from 'express'
-import cors from 'cors'
 import { movieRouter } from './routes/movies.js'
 import { corsMiddleware } from './middlewares/cors.js'
 
